@@ -1,0 +1,224 @@
+  /* section */
+section{
+  margin: 2rem;
+}
+
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+  .lista{
+ display: flex;
+ flex-direction: row;
+  }
+    /* button style */
+button{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+   background-color: #1865f2;
+   color: white;
+   font-weight: 500;
+  font-size: 16px;
+  text-align: center ;
+  text-decoration: none;
+}
+
+/* logo */
+.logo{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    cursor: pointer;
+}
+/*image girl */
+.girl{
+   width: 400px;
+    height: 400px;
+}
+
+/* hero section */
+.heroSection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+}
+/* h2 */
+h2{
+  font-size: 36px;
+  font-weight: 500;
+}
+/* herosection2 */
+.herosection2 p{
+  padding-bottom: 16px;
+  font-size: 16px;
+  color: gray;
+}
+/* hero button */
+
+
+/* khanworks */
+.khanwork{
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+.khanwork h2{
+  font-size: 45px;
+}
+.khanwork h5{
+  font-size: 20px;
+}
+/* khanworkimg */
+.khanworkimg{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
+.khanp{
+  width: 30%;
+  align-items: center;
+}
+.imageteacher{
+  width: 400px;
+  height: 400px;
+  object-fit: contain ;
+}
+.teacher{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.teacher h5{
+  color: #7b73a6;
+  font-size: 15px;
+}
+.teacher h4{
+  font-size: 30px;
+}
+ /* courses */
+ .courses{
+  color: #1865f2;
+ }
+ /* search */
+ .search{
+  color: black;
+ }
+
+ /* laptop */
+ .laptop{
+  width: 500px;
+  height: 400px;
+ }
+ /* learner */
+ .learner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  gap: 30px;
+ }
+ .learner h5{
+  font-weight: 400;
+  color:gray ;
+  font-size: 15px;
+ }
+ .learner h4{
+  font-weight: 800;
+  font-size: 40px;
+ }
+ .learner button{
+  width: 200px;
+  height: 40px;
+ }
+ .anjali{
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+ }
+ .anjali p{
+  font-size: 20px;
+ }
+ .anjali img{
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+ }
+ .textan{
+  justify-content: right;
+ }
+.Together{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.imagetogether{
+  width: 600px;
+  height: 800px;
+  object-fit: contain;
+}
+.Together h5{
+  color: grey;
+  font-size: 15px;
+}
+.Together h4{
+  font-size: 45px;
+}
+.Together button{
+  width: 200px;
+  height: 50px;
+}
+/* join */
+.join{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.join h3{
+  font-size: 40px;
+}
+.button-container{
+display: flex;
+flex-direction: column;
+width: 300px;
+}
+/* images in footer */
+.imagefooter{
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+.logofoot{
+  width: 300px;
+  height: 70px;
+  object-fit: contain;
+}
+footer{
+flex-direction: column;
+background-color: #0b2149;
+}
+.foot1{
+  flex-direction: row;
+}
+.language{
+  display: flex;
+}
