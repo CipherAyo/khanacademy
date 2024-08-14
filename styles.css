@@ -5,18 +5,27 @@ section{
 
   body{
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
+    align-items: center;
   }
 header{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f4f4f5;
+}
+.headegg{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
   .lista{
  display: flex;
- flex-direction: row;
+ flex-direction: column;
+ gap: 20px;
+ font-size: 18px;
   }
     /* button style */
 button{
@@ -42,14 +51,14 @@ button{
 }
 /*image girl */
 .girl{
-   width: 400px;
-    height: 400px;
+   width: 200px;
+    height: 200px;
 }
 
 /* hero section */
 .heroSection{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 30px;
   width: 80%;
@@ -75,13 +84,311 @@ h2{
   margin: auto;
   width: 90%;
 }
+.khanwork img{
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
+}
+.khanwork p{
+  font-size: 10px;
+}
+.khanwork h2{
+  font-size: 20px;
+  text-align: center;
+}
+.khanwork h5{
+  font-size: 12px;
+}
+
+
+/* khanworkimg */
+.khanworkimg{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
+.khanp{
+  width: 100%;
+  align-items: center;
+}
+.imageteacher{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.teacher{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.teacher h5{
+  color: #7b73a6;
+  font-size: 12px;
+}
+.teacher h4{
+  font-size: 15px;
+}
+.teacher p{
+  font-size: 12px;
+}
+.teacher button{
+  width: 180px;
+  height: 30px;
+}
+ /* courses */
+ .courses{
+  color: #1865f2;
+ }
+ /* search */
+ .search{
+  color: black;
+ }
+
+ /* laptop */
+ .laptop{
+  width: 200px;
+  height: 200px;
+ }
+ /* learner */
+ .learner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  gap: 30px;
+ }
+ .learner h5{
+  font-weight: 200;
+  color:gray ;
+  font-size: 12px;
+ }
+ .learner h4{
+  font-weight: 400;
+  font-size: 20px;
+ }
+ .learner button{
+  width: 200px;
+  height: 40px;
+  align-items: center;
+ }
+ .learner p{
+  font-size: 15px;
+ }
+ .anjali{
+   margin: 0;
+  background-color: #f5f5f5;
+  padding: 50px 80px;
+ }
+ .anjali p{
+  font-size: 20px;
+ }
+ .anjali img{
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+ }
+ .textan{
+  justify-content: right;
+ }
+.Together{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.imagetogether{
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+  align-items: center;
+}
+.Together h5{
+  color: grey;
+  font-size: 9px;
+  text-align: center;
+}
+.Together h4{
+  font-size: 20px;
+}
+.Together button{
+  width: 200px;
+}
+.Together p{
+font-size: 10px;
+}
+/* join */
+.join{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.join h3{
+  font-size: 15px;
+}
+.button-container{
+display: flex;
+flex-direction: column;
+width: 150px;
+}
+/* key supporter */
+
+.key{
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  align-items: center;
+  padding: 20px;
+}
+.key h4{
+  align-items: center;
+}
+.key img{
+  width: 100px;
+  height: 40px;
+object-fit: contain;
+}
+.keysupport1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.keysupport2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #0b2149;
+  color: white;
+}
+.contact img{
+ width: 100px; 
+ height: 80px;
+ object-fit: contain;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+}
+.country{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+.country img{
+  width: 30px;
+  height: 20px;
+  object-fit: contain;
+}
+.textfooter{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.paragraphfoot{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media screen and (min-width: 328px){
+  section{
+    margin: 2rem;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f4f4f5;
+  }
+  .headegg{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .lista{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+     }
+     button{
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+     background-color: #1865f2;
+     color: white;
+     font-weight: 500;
+    font-size: 16px;
+    text-align: center ;
+    text-decoration: none;
+  }
+  .logo{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.girl{
+  width: 400px;
+   height: 400px;
+}
+.heroSection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+}
+h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+.herosection2 p{
+  padding-bottom: 16px;
+  font-size: 16px;
+  color: gray;
+}
+.khanwork{
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+.khanwork img{
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+}
+.khanwork p{
+  font-size: 18px;
+}
 .khanwork h2{
   font-size: 45px;
 }
 .khanwork h5{
   font-size: 20px;
 }
-/* khanworkimg */
 .khanworkimg{
   display: flex;
   flex-direction: row;
@@ -90,7 +397,7 @@ h2{
   justify-content: space-between;
 }
 .khanp{
-  width: 30%;
+  width: 100%;
   align-items: center;
 }
 .imageteacher{
@@ -113,21 +420,20 @@ h2{
 .teacher h4{
   font-size: 30px;
 }
- /* courses */
- .courses{
+.teacher button{
+  width: 180px;
+  height: 30px;
+}
+.courses{
   color: #1865f2;
  }
- /* search */
  .search{
   color: black;
  }
-
- /* laptop */
  .laptop{
   width: 500px;
   height: 400px;
  }
- /* learner */
  .learner{
   display: flex;
   flex-direction: row;
@@ -144,28 +450,28 @@ h2{
  .learner h4{
   font-weight: 800;
   font-size: 40px;
- }
- .learner button{
+ }.learner button{
   width: 200px;
   height: 40px;
  }
+ .learner p{
+  font-size: 15px;
+ }
  .anjali{
-  display: flex;
-  flex-direction: row;
-  background-color: #f5f5f5;
+  margin: 0;
+ background-color: #f5f5f5;
+ padding: 50px 80px;
+}
+.anjali p{
+  font-size: 20px;
  }
  .anjali p{
   font-size: 20px;
  }
- .anjali img{
-  width: 200px;
-  height: 150px;
-  object-fit: contain;
- }
  .textan{
   justify-content: right;
  }
-.Together{
+ .Together{
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -187,7 +493,6 @@ h2{
   width: 200px;
   height: 50px;
 }
-/* join */
 .join{
   display: flex;
   flex-direction: column;
@@ -197,28 +502,69 @@ h2{
   font-size: 40px;
 }
 .button-container{
-display: flex;
-flex-direction: column;
-width: 300px;
-}
-/* images in footer */
-.imagefooter{
-  width: 200px;
-  height: 300px;
-  object-fit: contain;
-}
-.logofoot{
-  width: 300px;
-  height: 70px;
-  object-fit: contain;
-}
-footer{
-flex-direction: column;
-background-color: #0b2149;
-}
-.foot1{
-  flex-direction: row;
-}
-.language{
   display: flex;
+  flex-direction: column;
+  width: 300px;
+  }
+  .key{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    align-items: center;
+    padding: 20px;
+  }
+  .key h4{
+    align-items: center;
+  } 
+  .key img{
+    width: 170px;
+    height: 60px;
+  object-fit: contain;
+  }
+  .keysupport1{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .keysupport2{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  footer{
+    display: flex;
+    flex-direction: display;
+    background-color: #0b2149;
+    color: white;
+  }
+  .contact img{
+    width: 100px; 
+    height: 80px;
+    object-fit: contain;
+   }
+   .bottom{
+    display: flex;
+    flex-direction: column;
+  }
+  .country{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+     }
+     .country img{
+      width: 30px;
+      height: 20px;
+      object-fit: contain;
+    }
+    .textfooter{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .paragraphfoot{
+      display: flex;
+      flex-direction: column;
+    }
+    
 }
